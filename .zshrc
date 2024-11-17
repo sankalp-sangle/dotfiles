@@ -35,6 +35,7 @@ alias vim=nvim
 export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
 
 # Lazygit
-echo "alias lg='lazygit'" >> ~/.zshrc
 alias lg='lazygit'
-alias lg='lazygit'
+
+# vim alias to neovim 
+# alias vim='nvim'
