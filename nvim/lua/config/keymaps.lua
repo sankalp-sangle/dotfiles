@@ -7,3 +7,7 @@ vim.keymap.set("i", "jk", "<Esc>")
 -- Leetcode plugin
 vim.keymap.set("n", "<Space>lT", ":Leet test<CR>")
 vim.keymap.set("n", "<Space>lS", ":Leet submit<CR>")
+
+-- Move half page and center
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
